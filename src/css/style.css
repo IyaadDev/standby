@@ -1,0 +1,13 @@
+body {
+    padding: auto;
+    background-color: #20232a;
+}
+
+.customizeBtn {
+    padding: 8px;
+    border-radius: 16px;
+    border-color: white;
+    border-width: 1px;
+    background-color: transparent;
+    color: white;
+}

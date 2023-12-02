@@ -1,0 +1,8 @@
+{
+    "backgrounds": [
+        {"name": "Windows Waves", "src": "/backgrounds/1.webp"},
+        {"name": "Orbs", "src": "/backgrounds/3.webp"},
+        {"name": "Floating magnets", "src": "/backgrounds/4.webp"},
+        {"name": "Wavy fabric", "src": "/backgrounds/5.webp"}
+    ]
+}
