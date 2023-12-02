@@ -1,5 +1,7 @@
 .digits {
     margin: 16px;
     padding: 16px;
+    font-size: 250px;
+    text-align: center;
     color: white;
 }

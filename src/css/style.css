@@ -11,3 +11,12 @@ body {
     background-color: transparent;
     color: white;
 }
+
+.showSeconds {
+    border-style: solid;
+    border-radius: 16px;
+    border-color: white;
+    margin: 16px;
+    padding: 16px;
+    color: white;
+}
