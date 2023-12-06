@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./clock.css";
 
-function Digits({ showSeconds = true }) {
-    // This is a component that displays the digits of the current time.
+function Digits({ showSeconds, font }) {
     const [currentTime, setCurrentTime] = useState(
         new Date().toLocaleTimeString([], {
             hour: '2-digit',
@@ -40,14 +39,24 @@ function Digits({ showSeconds = true }) {
         );
     }, [showSeconds]);
 
-    return <h1 className='digits'>{currentTime}</h1>;
+    let fontSize = showSeconds ? '250px' : '250px';
+
+    let fontFamily;
+    if (font === 1) {
+        fontFamily = 'Montserrat';
+    } else if (font === 2) {
+        fontFamily = 'Lato';
+    } else if (font === 3) {
+        fontFamily = 'Oswald';
+    }
+
+    return <h1 className='digits' style={{ fontFamily, fontSize }}>{currentTime}</h1>;
 }
 
-
-function Clock ({showSeconds}) {
+function Clock({ showSeconds, font }) {
     return (
         <div className="clock">
-            <Digits showSeconds={true} />
+            <Digits showSeconds={false} font={3} />
         </div>
     );
 }

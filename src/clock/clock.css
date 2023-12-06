@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Lato';
+    src: url("../assets/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url("../assets/fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+.digits {
+    font-family: 'Lato';
+    font-size: 250px;
+    text-align: center;
+}

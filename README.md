@@ -1,20 +1,8 @@
-# StandBy
-A beautiful dashboard to leave your device on.
+# React + Vite
 
-**Note: This is primarily for students in school**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Installation
-```
-git clone "https://github.com/IyaadDev/standby"
-cd standby
-npm install
-npm preview
-```
+Currently, two official plugins are available:
 
-## Important Notes
-This is only meant to be a **section** of another application. Feel free to integrate standby into your application!
-
-**Attribution: Please leave a small note for attribution!**
-```
-<p class="text-muted"><b>Standby</b> from @IyaadDev has been integrated into this application</p>
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
